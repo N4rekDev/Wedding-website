@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    font-family: "Raleway", sans-serif;
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 6%;
+    bottom: 0;
+    opacity: 0.7;
+    background-color: white;
+}
+
+nav:hover {
+    opacity: 1;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+nav span {
+    padding: 10px 163px;
+}
+
+nav span:hover {
+    background-color: rgba(128, 128, 128, 0.531);
+}
+
+ .rsvp:hover{
+    background-color: black;
+    color: white;
+}
+
+.home {
+    display: flex;
+    background-image: url(./images/wedding_couple.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.home h1{
+    font-weight: 400;
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+
+.home h2 {
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 15px
+}
+
+.home h3 {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.jane_john {
+    background-color: #F2E1E1FF;
+    color: gray;
+    height: 140vh;
+    overflow: hidden;
+}
+
+.jane_john h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.jane_john img {
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.jane_john p {
+    margin-left: 20.5%;
+    margin-right: 20.5%;
+    margin-top: 30px;
+    font-style: italic;
+}
+
+.jane_john button {
+    background-color: black;
+    padding: 17px 25px;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.jane_john button a {
+    color: white;
+}
+
+.jane_john button:hover {
+    background-color: rgba(154, 154, 154, 0.597);
+    color: black;
+}
+
+.inventation {
+    flex-direction: column; 
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/flowers.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.wedding {
+    background-color: #F2E1E1FF;
+    color: gray;
+    height: 140vh;
+    overflow: hidden;
+}
+
+.wedding h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.wedding img {
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.when-where {
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    color: black;
+    margin-top: 20px;
+    padding-left: 18%;
+    padding-right: 18%;
+}
+
+.when-where div h3 {
+    font-size: 30px;
+}
+
+.when-where div p {
+    font-size: 18px;
+}
+
+.rsvp-div {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 30vh;
+    font-size: 17px;
+    letter-spacing: 4px;
+    margin-top: 70px;
+    background-color: #FFDDDDFF;
+    margin-top: 0;
+}
+
+.rsvp-div h2 {
+    font-size: 40px;
+}
+
+.rsvp-div button {
+    background-color: #F88078FF;
+    color: white;
+    padding: 20px 60px;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.rsvp-div button:hover {
+    background-color: rgba(154, 154, 154, 0.597);
+    color: black;
+}
+
+footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+}
+
+footer a {
+    color: white;
+    margin-left: 5px;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: #019967FF;
+}
